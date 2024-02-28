@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    color: white;
+    background-image: url('assest/b7.jpg');
+    background-size: cover;
+}    
+
+.container{
+    position: relative;
+}
+
+
+.container h3{
+color: #ffffff;
+font-size: 22px;
+position: fixed;
+bottom: 80px;
+left: 30px;
+}
+
+.container h1{
+color: rgb(1, 148, 148);
+font-weight: 600;
+font-family: 'poppins' sans-serif;
+ position: fixed;
+ left: 30px;
+ bottom: 40px;
+}
+
+#result{
+padding-left: 1300px;
+font-size: 100px;
+position: fixed;
+right: 30px;
+bottom: 40px;
+}
+
+
+.img-container img{
+width: 60px;
+position: fixed;
+top: 200px;
+left: 200px;
+}
+
+.game-over{
+    position: absolute;
+    top: 30%;
+    width:auto;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: rgb(135, 17, 98);
+    font-weight: bolder;
+    display: none;
+}
+
+
+.game-over button{
+    display: block;
+    background-color: aqua;
+    color: rgb(135, 17, 98);
+    padding: 15px 25px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
